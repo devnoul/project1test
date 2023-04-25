@@ -101,13 +101,13 @@ detectUserLevel();
 // "Ваш любимый жанр под номером ${номер по порядку}". Каждый ответ записывается в массив данных
 // genres
 
-function showMyDB(hidden) {
-    if (!hidden) {
-        console.log(personalMovieDB);
-    }
-}
+// function showMyDB(anyword) {
+//     if (!anyword) {
+//         console.log(personalMovieDB);
+//     }
+// }
 
-showMyDB(personalMovieDB.privat);
+// showMyDB(personalMovieDB.privat); /// checking personalMovieDB.privat true or false (!anyword)
 
 function showMyDB() {
     if (personalMovieDB.privat == false) {
